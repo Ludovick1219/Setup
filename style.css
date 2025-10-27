@@ -1,0 +1,97 @@
+   body{
+      font-family: 'Lobster', cursive;
+      background-color: #111;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    @media (max-width: 600px) {
+      .container {
+        background-color: aquamarine;
+      }
+
+    .container {
+      
+      width: 100%;
+      padding: 20px;
+      background: #1a1a1a;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+
+    h1, h2 {
+      color: #e4b465;
+      text-align: center;
+    }
+
+    ul {
+      
+      padding-left: 25px;
+      margin-bottom: 30px;
+    }
+
+    ul li {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: gold;
+  margin-top: 3px;
+}
+ul li a:hover {
+  color: black;
+  transition: 0.4s ease;
+    ol {
+      
+      padding-left: 25px;
+      margin-bottom: 30px;
+    }
+
+    ol li {
+      
+      margin-bottom: 10px;
+      padding-left: 10px;
+      position: relative;
+    }
+
+
+
+    .custom-list {
+      
+      padding: 0;
+    }
+
+    .custom-list li {
+      background: linear-gradient(135deg, #e4b465, #d49a32);
+      color: #111;
+      margin: 10px 0;
+      padding: 12px 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .custom-list li:hover {
+      background: linear-gradient(135deg, #d49a32, #b57f1a);
+      
+    }
+@media (max-width: 500px) {
+      .container 
+      .{
+        width: 95%;
+        background-color: aquamarine;
+        padding: 15px;
+        flex-direction: column;
+        border-radius: 5px\
+      }
+
+      ul, ol {
+        padding-left: 15px;
+      }
+    

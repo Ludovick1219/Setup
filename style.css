@@ -1,5 +1,5 @@
    body{
-      font-family: 'Lobster', cursive;
+      font-family: 'Roboto Flex', sans-serif;
       background-color: #111;
       color: #f0f0f0;
       margin: 0;
@@ -11,7 +11,7 @@
       .container {
         background-color: aquamarine;
       }
-
+    }
     .container {
       
       width: 100%;
@@ -79,7 +79,7 @@ ul li a:hover {
 
     .custom-list li:hover {
       background: linear-gradient(135deg, #d49a32, #b57f1a);
-      
+      display: inline;
     }
 @media (max-width: 500px) {
       .container 
